@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django_extensions",
+<<<<<<< HEAD
     "musicapp",
     "rest_framework"
+=======
+    "musicapp"
+>>>>>>> a8cc677efe39809d1850f1597a1602110a2a77b4
 ]
 
 MIDDLEWARE = [
@@ -118,6 +122,7 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+<<<<<<< HEAD
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES':[
@@ -129,3 +134,5 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+=======
+>>>>>>> a8cc677efe39809d1850f1597a1602110a2a77b4
